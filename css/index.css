@@ -1,4 +1,120 @@
-.h1 {
-  font-family: sans-serif;
-  font-size: 48px;
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+} 
+
+div {
+  display: block;
+}
+
+.header {
+  width: 1440px;
+  height: 73px;
+  padding-left: 138px;
+  padding-right: 138px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.logo {
+  width: 165.6px;
+  height: 70px;
+  float: left;
+}
+
+.nav-container{
+  display: block;
+  float: right;
+  padding-top: 37px;
+}
+
+.navtitle {
+  display: inline-block;
+  font-family: 'Sora', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  padding-right: 60px;
+  text-align: left;
+  color: #1e1b1c;
+}
+
+.content {
+  width: 1440px;
+  height: 1140px;
+  flex-grow: 0;
+  background-color: #f8f8f8;
+  display: block;
+  padding: 50px 138px 64px;
+}
+
+.left-column {
+  width: 800px;
+  float: left;
+}
+
+.right-column {
+  float: right;
+  width: 393px;
+  height: 467px;
+  padding-right: 60px;
+}
+
+h1 {
+  font-family: 'Sora', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.83;
+  letter-spacing: 0.25px;
+  color: #000000;
+}
+
+h2 {
+  font-family: 'Sora', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #000000;
+  
+}
+
+b {
+  font-weight: 600;
+}
+
+p {
+  font-family: 'Sora', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 2;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #000000;
+  margin: 0px;
+}
+
+.footer {
+  padding: 46px 636px 46px 637px;
+  align-content: center;
+  font-family: 'Sora', sans-serif;
+  width: 200px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 2;
+  text-align: center;
+  text-transform: none;
+  color: #000000;
+  margin: 0px;
+  align-content: center;
+}
+
+.linkedin {
+  width: 30px;
+  height: 30px;
+  flex-grow: 0;
+  float: left;
+  object-fit: contain;
+  padding-top: 57px;
 }
